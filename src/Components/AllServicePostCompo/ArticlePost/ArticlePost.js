@@ -59,8 +59,8 @@ const ArticlePost = () => {
             }
                 <form onSubmit={handleAddArticle}>
                     
-            <input type="text" onChange={e=>setTitle(e.target.value)}  name='Title' />
-            <input type="text" onChange={e=>setTitle2(e.target.value)}  name='Title' />
+            <input placeholder='Title' type="text" onChange={e=>setTitle(e.target.value)}  name='Title' />
+            <input placeholder='Comment' type="text" onChange={e=>setTitle2(e.target.value)}  name='Title' />
             <input type="file" accept="image/*" 
             onChange={e=>setImage(e.target.files[0])}
             />

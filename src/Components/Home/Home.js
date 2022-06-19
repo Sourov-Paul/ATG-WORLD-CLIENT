@@ -14,7 +14,7 @@ const Home = () => {
 
 
   useEffect(()=>{
-    fetch('http://localhost:5000/users')
+    fetch('https://morning-brook-05622.herokuapp.com/users')
     .then(res=>res.json())
     .then(data=>setUsers(data))
   },[setUsers])

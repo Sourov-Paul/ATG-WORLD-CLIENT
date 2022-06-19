@@ -1,5 +1,6 @@
 import React from 'react';
 import './Loader.css';
+
 const Loader = () => {
     return (
         <>
@@ -14,6 +15,17 @@ const Loader = () => {
         
       </div>
         </div>
+        
+        
+        
+
+
+
+
+
+
+
+        
         </>
     );
 };

@@ -13,7 +13,7 @@ const Article = () => {
     const {user}=useAuth()
 
     useEffect(()=>{
-        fetch('http://localhost:5000/allArticle')
+        fetch('https://morning-brook-05622.herokuapp.com/allArticle')
         .then(res=>res.json())
         .then(data=>{
           setIsLoading(false)

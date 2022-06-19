@@ -45,8 +45,8 @@ const UpdatePost = () => {
 
         <div>
             <form onSubmit={handleSubmit(onSubmit)}>
-<input  defaultValue={singleArticle.title} {...register ('title')} />
-<input defaultValue={singleArticle.title2} {...register ('title2')} />
+<input placeholder='Title' defaultValue={singleArticle.title} {...register ('title')} />
+<input placeholder='Comment' defaultValue={singleArticle.title2} {...register ('title2')} />
 <input type="submit" />
 </form>
         {singleArticle.title}

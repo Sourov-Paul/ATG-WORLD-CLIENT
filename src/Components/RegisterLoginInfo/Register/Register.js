@@ -38,20 +38,20 @@ const Register = () => {
       navigate
      
     );
-    
+    succeessMessageSender()
     e.preventDefault();
   };
 
 
 
     // sucess message
-//     const succeessMessageSender=()=>{
-//       Swal.fire({
+    const succeessMessageSender=()=>{
+      Swal.fire({
        
-//             icon: 'success',
-//             title: 'Registration Successfully'
-//           })
-// }
+            icon: 'success',
+            title: 'Registration Successfully'
+          })
+}
 // error message
 const errorHandleMessage=()=>{
   Swal.fire({
@@ -141,10 +141,8 @@ const errorHandleMessage=()=>{
         <img className="img-fluid" src="https://i.ibb.co/mq00vr4/create-Account.png" alt="" />
         <p className="conditions">By signing up, you agree to our Terms & conditions, Privacy policy</p>
         </div>
-        {/* {
-       user?.email && succeessMessageSender()
-     
-     } */}
+       
+       
 
         {
              error && errorHandleMessage()
