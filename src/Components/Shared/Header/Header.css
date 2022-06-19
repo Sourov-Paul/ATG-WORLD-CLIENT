@@ -1,0 +1,42 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap');
+i.fa-solid.fa-magnifying-glass {
+    position: absolute;
+    margin:5px 10px;
+    z-index: 1;
+    top: 24px;
+}
+.userLink{
+    margin:0px
+}
+input[type="search"] {
+     position: relative;
+    width: 360px;
+    padding: 10px 32px;
+    border-radius: 21px;
+    border: none;
+    outline: none;
+    background: #F2F2F2;
+}
+nav.mainHeader {
+    height: 72px;
+    display: grid;
+    align-content: space-around;
+}
+.accountStatus{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #2E2E2E;
+}
+img.userImage {
+    width: 36px;
+    height: 36px;
+    border-radius: 21px;
+}
+
+button.navLogin {
+    background: white;
+    border: none;
+}

@@ -1,0 +1,23 @@
+
+.textarea1{
+    outline:none;
+    border:none;
+}
+textarea.textarea1.p-2.rounded {
+    margin: 0 auto;
+    display: flex;
+}
+
+
+/* second  Login modal*/
+.modal-dialog.modal-dialog-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 736px !important;
+    max-height: 513px !important;
+}
+button.logoutButtons {
+    background: white;
+    border: none;
+}

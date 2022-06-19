@@ -1,0 +1,102 @@
+/* google font CDN*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+p.goToRegis {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    width: 280px;
+    height: 17px;
+    
+}
+span.changeRegisterPage {
+    color: #2395e7;
+    cursor: pointer;
+}
+input[type="email"],input.m-1,input[type="password"] {
+    max-width: 320px;
+    width:100%;
+    outline: none;
+    padding: 10px;
+    margin:2px 0;
+    border:2px solid #F7F8FA;
+    border-radius:5px
+}
+
+span.loginSite {
+    font-size: 24px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    color:  #000000;
+}
+
+button.subMitButton {
+    max-width: 320px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    padding: 8px;
+    color: white;
+    border-radius: 20px;
+    background: #2F6CE5;
+    margin-top:19px
+}
+button.facebookSignInButton.text-center.m-2,button.googleSignInButton.text-center.m-2 {
+    max-width: 303px;
+    width: 100%;
+    height: 36px;
+    background: #FFFFFF;
+    border: 0.6px solid #D9D9DB;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+img.facebookImage,img.googleImage {
+    width: 23px;
+    margin: 0 10px;
+}
+
+input[type="email"] {
+    margin-top: 24px;
+}
+
+
+h5#exampleModalToggleLabel p{
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+color: #008A45;
+background:#EFFFF4;
+    
+}
+.mainRegesterDiv{
+    display: block;
+}
+.modal-header {
+    background:#EFFFF4;
+}
+
+.modal-header.sdsd {
+    background: white;
+    border-bottom: none;
+}
+
+h5#exampleModalToggleLabel\ gf {
+    color: #176a39;
+    font-size: 14px;
+}
+
+
+input.subMITY {
+    padding: 4px 37px;
+    border-radius: 10px;
+    background: #fafafa;
+    border: none;
+    font-weight: bold;
+}
+button.forgotPassword {
+    background: white;
+    border: none;
+}

@@ -1,0 +1,43 @@
+h6.sticky-top.verifyWarning {
+    text-align: center;
+    color: #a17c2d;
+}
+.photoName {
+    display: flex;
+}
+.activeStyle{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    color:black;
+    text-decoration: none;
+    padding: 20px;
+   
+}
+.onlyBorder{
+    text-decoration: none;
+    color:#8A8A8A;
+    padding: 18px
+}
+
+.container.nestedRoutes {
+    padding-top: 47px;
+    border-bottom: 1px solid rgb(226, 225, 225) !important;
+    padding-bottom: 8px;
+    padding-left:0
+}
+#nestedRoute{
+    padding-left: 0px !important;
+}
+
+.container.nestedRoutes {
+    display: flex;
+    justify-content: space-between;
+}
+span.writePost {
+    padding: 8px;
+    margin: 13px;
+    background: #EDEEF0;
+}
+.rpJoinBtn {
+    margin-top: -14px;
+}
+
